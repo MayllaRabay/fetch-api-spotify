@@ -1,6 +1,6 @@
 import React from 'react';
-import getAlbumCover from '../util/getAlbumCover';
-import getArtistsNames from '../util/getArtistsNames';
+import getAlbumCover from '../../utils/getAlbumCover';
+import getArtistsNames from '../../utils/getArtistsNames';
 
 function Card({ track }) {
   const { name, album, external_urls, artists } = track;
