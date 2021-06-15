@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Create, innovate, inspire, code and test like a girl!" title="#MeuBanner" src="./banner.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center"> 
+	🚧 Requisições com fetch no ReactJS 🚀 em andamento... 🚧
+</h2>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+ Exercício de Fetch API no ReactJS.
+ Vamos criar uma aplicação integrada com a API do [Spotify](https://developer.spotify.com/documentation/web-api/).
 
-### `yarn start`
+## 💡 Pré-requisitos
+ - O primeiro passo é instalar o [**Git**](https://git-scm.com) em seu computador caso você ainda não o tenha. 
+ - Os pacotes que iremos utilizar durante o desenvolvimento desse projeto serão gerenciados pelo **Node Package Manager** (NPM), então precisaremos instalá-lo. Vamos até o site oficial do [**Node.js**](https://nodejs.org/en/) para instalar sua versão LTS. Quando instalamos o Node.js, o **NPM** também é instalado no computador como parte do mesmo pacote. 
+ - Através do NPM instalaremos o gerenciador de dependências [**Yarn**](https://yarnpkg.com/getting-started).
+ - Além disto é interessante ter um bom editor para trabalhar com o código como por exemplo o [**VSCode**](https://code.visualstudio.com/download).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Como executar o projeto
+```bash
+# Clone este repositório
+$ git clone https://github.com/MayllaRabay/fetch-api-spotify
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd fetch-api-spotify
 
-### `yarn test`
+# Instale o NPM caso não tenha baixado o Node.js
+$ npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale o gerenciador de dependências Yarn
+$ npm install yarn
 
-### `yarn build`
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# A aplicação será aberta na porta:3000 - acesse em seu navegador 
+http://localhost:3000
+```
+## 🛠 Tecnologias
+  - ![ReactJS](https://img.shields.io/badge/-ReactJS-4682b4)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Extras
+### Porque usar ReactJS?
+ Com o React é mais fácil e prático de manipular a interface de acordo com o que o usuário poderá interagir, graças à tríade que o compoẽ: **COMPONENTES**, **PROPRIEADADES** e **ESTADOS**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Toda função dentro do React que retorna um HTML é um **COMPONENTE**! Os componentes facilitam a manutenção e a leitura do código, principalmente quando nossa aplicação começa a ficar grande, com muitas páginas, muitas linhas de código, muitas funcionalidades. O uso de componentes no React é excelente para evitar **repetição**, ou seja, quando temos o mesmo 'pedaço' de interface se repetindo ao longo da aplicação, um header ou footer por exemplo, nós podemos encapsular essa parte em um componente e utilizá-lo várias vezes dentro da nossa aplicação. 
+ 
+ Além dos componentes serem uma forma de **reutilizarmos** código, eles também servem para **isolar as responsabilidades** de uma determinada funcionalidade, sendo assim mais fácil de resolver bugs e manter a integridade do código, com menos chance de quebrá-lo.
+### FETCH API
+ É uma função que serve para fazer requisições HTTP, muito parecida com o Axios, porém o fetch é nativo de navegadores. Ele recebe como primeiro parâmetro obrigatório uma URL, e parâmentros secundários opcionais, como por exemplo as 'options' da requisição em formato de objeto. Dentro desse objeto temos algumas propriedades como 'method', 'headers' e 'body'.
 
-### `yarn eject`
+ Para mais informações, veja a [documentação do React](https://create-react-app.dev/docs/getting-started/) e a [documentação da Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Maylla Rabay 👋 [Entre em contato!](https://www.linkedin.com/in/mayllarabay/)
