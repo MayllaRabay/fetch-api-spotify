@@ -42,7 +42,7 @@ http://localhost:3000
 
 ## ✨ Extras
 ### Porque usar ReactJS?
- Com o React é mais fácil e prático de manipular a interface de acordo com o que o usuário poderá interagir, graças à tríade que o compoẽ: **COMPONENTES**, **PROPRIEADADES** e **ESTADOS**.
+ Com o React é mais fácil e prático de manipular a interface de acordo com o que o usuário poderá interagir, graças à tríade que o compoẽ: **COMPONENTES**, **PROPRIEDADES** e **ESTADOS**.
 
  Toda função dentro do React que retorna um HTML é um **COMPONENTE**! Os componentes facilitam a manutenção e a leitura do código, principalmente quando nossa aplicação começa a ficar grande, com muitas páginas, muitas linhas de código, muitas funcionalidades. O uso de componentes no React é excelente para evitar **repetição**, ou seja, quando temos o mesmo 'pedaço' de interface se repetindo ao longo da aplicação, um header ou footer por exemplo, nós podemos encapsular essa parte em um componente e utilizá-lo várias vezes dentro da nossa aplicação. 
  
@@ -51,5 +51,11 @@ http://localhost:3000
  É uma função que serve para fazer requisições HTTP, muito parecida com o Axios, porém o fetch é nativo de navegadores. Ele recebe como primeiro parâmetro obrigatório uma URL, e parâmentros secundários opcionais, como por exemplo as 'options' da requisição em formato de objeto. Dentro desse objeto temos algumas propriedades como 'method', 'headers' e 'body'.
 
  Para mais informações, veja a [documentação do React](https://create-react-app.dev/docs/getting-started/) e a [documentação da Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API).
+
+## :bowtie: Autor
+<a href="https://github.com/mayllarabay/">
+ <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/68441361?v=4" 
+ width="100px" alt="" />
+</a>
 
 Feito com ❤️ por Maylla Rabay 👋 [Entre em contato!](https://www.linkedin.com/in/mayllarabay/)
