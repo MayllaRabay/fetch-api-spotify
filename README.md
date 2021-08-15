@@ -42,7 +42,7 @@ http://localhost:3000
 
 ## ✨ Extras
 ### Porque usar ReactJS?
- Com o React é mais fácil e prático de manipular a interface de acordo com o que o usuário poderá interagir, graças à tríade que o compoẽ: **COMPONENTES**, **PROPRIEDADES** e **ESTADOS**.
+ Com o React é mais fácil e prático de manipular a interface de acordo com o que o usuário poderá interagir, graças à tríade que o compõe: **COMPONENTES**, **PROPRIEDADES** e **ESTADOS**.
 
  Toda função dentro do React que retorna um HTML é um **COMPONENTE**! Os componentes facilitam a manutenção e a leitura do código, principalmente quando nossa aplicação começa a ficar grande, com muitas páginas, muitas linhas de código, muitas funcionalidades. O uso de componentes no React é excelente para evitar **repetição**, ou seja, quando temos o mesmo 'pedaço' de interface se repetindo ao longo da aplicação, um header ou footer por exemplo, nós podemos encapsular essa parte em um componente e utilizá-lo várias vezes dentro da nossa aplicação. 
  
